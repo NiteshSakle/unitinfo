@@ -1,0 +1,32 @@
+              Tagname                 Description                             Value     Unit
+------------------------------------------------------------------------------------------------
+              5U5LOADKPKD.OUT         UNIT_5_KPKD_LOAD                        405.71    MW
+              5COALTOTAL.OUT          TOTAL_COAL_FLOW                         349.66    TPH
+              5FDRA_FEEDRATE.OUT      FDR_A_FEEDRATE                          58.92     TPH
+              5FDRB_FEEDRATE.OUT      FDR_B_FEEDRATE                          56.22     TPH
+              5FDRC_FEEDRATE.OUT      FDR_C_FEEDRATE                          60.38     TPH
+              5FDRD_FEEDRATE.OUT      FDR D FEEDRATE                          58.63     TPH
+              5FDRE_FEEDRATE.OUT      FDR E FEEDRATE                          0.00      TPH
+              5FDRF_FEEDRATE.OUT      FDR F FEEDRATE                          59.21     TPH
+              5FDRG_FEEDRATE.OUT      FDR G FEEDRATE                          56.35     TPH
+              5FDRH_FEEDRATE.OUT      FDR H FEEDRATE                          0.00      TPH
+              5HFC10DT901_XJ01.OUT    MILL-A O/L TEMP                         68.98     °C
+              5HFC20DT901_XJ01.OUT    MILL-B O/L TEMP                         77.06     °C
+              5HFC30DT901_XJ01.OUT    MILL-C O/L TEMP                         73.66     °C
+              5HFC40DT901_XJ01.OUT    MILL-D O/L TEMP                         72.96     °C
+              5HFC50DT901_XJ01.OUT    MILL-E O/L TEMP                         44.90     °C
+              5HFC60DT901_XJ01.OUT    MILL-F O/L TEMP                         73.31     °C
+              5HFC70DT901_XJ01.OUT    MILL-G O/L TEMP                         74.25     °C
+              5HFC80DT901_XJ01.OUT    MILL-H O/L TEMP                         66.84     °C
+              5HFE71DF901_XJ03.OUT    MILL-A AIR FLOW                         115.32    TPH
+              5HFE72DF901_XJ03.OUT    MILL-B AIR FLOW                         109.94    TPH
+              5HFE73DF901_XJ03.OUT    MILL-C AIR FLOW                         110.98    TPH
+              5HFE74DF901_XJ03.OUT    MILL-D AIR FLOW                         110.35    TPH
+              5HFE75DF901_XJ03.OUT    MILL-E AIR FLOW                         0.00      TPH
+              5HFE76DF901_XJ03.OUT    MILL-F AIR FLOW                         106.85    TPH
+              5HFE77DF901_XJ03.OUT    MILL-G AIR FLOW                         110.40    TPH
+              5HFE78DF901_XJ03.OUT    MILL-H AIR FLOW                         0.00      TPH
+              5HHQ20CP101_XQ01.OUT    SCANNER AIR FAN O/L PRESS               286.04    mmWC
+              5U5RUNDAYS.OUT          U5 RUNNING DAYS                         40.47     DAYS
+              5HHQ10CP101_XQ01.OUT    DP ACRS DUPLEX AIR FILTER               17.27     mmWC
+              5HFW20CP101_XQ01.OUT    SEAL AIR FAN DISCH PRESS                1348.92   mmWC

@@ -1,0 +1,114 @@
+
+.responsive-table-input-matrix {
+  margin: 0em 0;
+  width: 100%;
+}
+@media (min-width: 100px) {
+  .responsive-table-input-matrix .responsive-table-input-matrix {
+    width: auto;
+  }
+}
+.responsive-table-input-matrix tr {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.responsive-table-input-matrix tr td {
+  text-align: left;
+}
+@media (min-width: 100px) {
+  .responsive-table-input-matrix tr td {
+    text-align: center;
+  }
+  .responsive-table-input-matrix td[data-value="#"] {
+    color: #f60808;
+ }
+}
+.responsive-table-input-matrix th {
+  display: none;
+}
+.responsive-table-input-matrix td {
+  display: block;
+}
+.responsive-table-input-matrix td:first-child {
+  padding-top: .5em;
+}
+.responsive-table-input-matrix td:last-child {
+  padding-bottom: .5em;
+}
+.responsive-table-input-matrix td:before {
+  content: attr(data-th) ":";
+  font-weight: bold;
+  width: 2em;
+  display: inline-block;
+}
+@media (min-width: 100px) {
+  .responsive-table-input-matrix td:before {
+    display: none;
+  }
+}
+.responsive-table-input-matrix th, .responsive-table-input-matrix td {  
+  text-align: center;
+}
+
+@media (min-width: 100px) {
+  .responsive-table-input-matrix th, .responsive-table-input-matrix td {
+    display: table-cell;
+    padding: .25em .5em;
+  }
+  .responsive-table-input-matrix th:first-child, .responsive-table-input-matrix td:first-child {
+    padding-left: 0;
+  }
+  .responsive-table-input-matrix th:last-child, .responsive-table-input-matrix td:last-child {
+    padding-right: 0;
+  }
+}
+
+body {
+  padding: 0 0em;
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #444;
+  background: #eee;
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: -1px;
+  color: #34495E;
+}
+td[data-value="#"] {
+    color: #f60808;
+ }
+.responsive-table {
+  background: #34495E;
+  color: #fff;
+  border-radius: .9em;
+  overflow: hidden;
+  border-collapse: collapse;
+}
+.responsive-table tr {
+  border-style: dotted;
+  border-right-style: none;
+  border-left-style: none;
+  border-bottom-color: #666161;
+}
+
+.responsive-table th, .responsive-table td {   
+  border-left: solid 1px #78773d;
+  margin: .5em 1em;
+}
+.responsive-table th{
+border-top: solid 2px #78773d;
+border-bottom: solid 2px #78773d;
+width: 25%;
+}
+@media (min-width: 100px) {
+  .responsive-table th, .responsive-table td {
+    padding: 0.3em !important;
+  }
+}
+.responsive-table th, .responsive-table td:before {
+  color: cyan;
+}
+

@@ -1,0 +1,1 @@
+xcopy \\172.16.160.36\wwwroot\group2.txt C:\xampp\htdocs\unitinfo\  /y
